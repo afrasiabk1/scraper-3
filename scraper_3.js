@@ -1,7 +1,7 @@
 const puppeteer = require('puppeteer');
 const axios = require('axios');
 const url = require('url');
-const appscripturl="https://script.google.com/a/macros/ultrarev.io/s/AKfycbzuXVJ1GFhJasszNpoiMNFS3Tavn6pFAgKdKTa8L9U-4Vw2p1dNa9WpneKYYsGzkJshUw/exec";
+const appscripturl="https://script.google.com/macros/s/AKfycbyVLRJwr2HIgvGedreW87oSVG9eb8_rfeXj4flGMa5ANOs1D2NwDenRNyNJPu2TKl67/exec";
 // Function to fetch domain list from API 1
 async function fetchDomainList() {
   try {
